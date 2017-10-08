@@ -19,7 +19,6 @@ public class Main {
         catch (Exception e){
              System.exit(0);
         }
-        String name=movie.chooses(file,x);
         movie.create();
         System.out.println("Guess the movie:"+"\n"+"  "+movie.copy+"");
         movie.displayfinal();
